@@ -1,10 +1,9 @@
 from tkinter import *
 
 class Application(Frame):
-    """ Main class for calculator"""
 
     def __init__(self, master):
-        """ Initialise the Frame. """
+       
         super(Application, self).__init__(master)
         self.task = ""
         self.UserIn = StringVar()
@@ -12,7 +11,7 @@ class Application(Frame):
         self.create_widgets()
 
     def create_widgets(self):
-        """ Create all the buttons for calculator. """
+      
         # User input stored as an Entry widget.
 
         self.user_input = Entry(self, bg = "#5BC8AC", bd = 29, 
